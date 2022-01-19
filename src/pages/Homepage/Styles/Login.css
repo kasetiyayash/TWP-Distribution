@@ -1,0 +1,10 @@
+#main {
+  background-image: url("../../../assets/Images/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top; }
+
+div {
+  font-family: url("../../../assets/Fonts/Nunito-Regular.ttf"); }
+
+/*# sourceMappingURL=Login.css.map */

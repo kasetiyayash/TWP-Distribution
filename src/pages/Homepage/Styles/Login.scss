@@ -1,0 +1,11 @@
+$bg-image: "../../../assets/Images/bg.png";
+$font: "../../../assets/Fonts/Nunito-Regular.ttf";
+#main {
+  background-image: url($bg-image);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:top;
+}
+div{
+    font-family: url($font);
+}
