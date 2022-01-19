@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "nunito";
+  src: url("../Assets/Fonts/Nunito-Regular.ttf");
+}
+
+body {
+  height: 100%;
+  font-family: "nunito";
+  background-color: white;
+}
+
+h6{
+  font-size: 22px;
+  font-weight: bold;
+}
+
+h5{
+  font-size: 16px;
+  color: #555555;
+}
+
+h4{
+  font-size: 16px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.h5Inquery{
+  font-size: 16px;
+  color: #000000;
+}
+
+:root {
+  --lightGray : #d2cbfc;
+}
+
+.fs-18{
+  font-size: 18px;
+}
+
+.itemDetailFont{
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+}
+
+.fb{
+  font-weight: bold;
+}
+
+.chart-container {
+  width: 50%;
+  height: 50%;
+  margin: auto;
+}
+

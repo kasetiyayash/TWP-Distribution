@@ -1,0 +1,55 @@
+.title_bar {
+    font-weight: bold;
+    font-size: 20px;
+    color: #2b7ddb;
+}
+
+.search-bar {
+    height: 40px;
+    width: 100%;
+}
+
+.item-bg {
+    background: #f2f2f2;
+}
+
+input {
+    outline: none ;
+    color: black;
+    background-color: #f0f2f5;
+    border: 10px ;
+    font-weight: 600 !important;
+    font-size: 15px !important;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.form-control:focus {
+    color: #212529;
+    background: #f0f2f5;
+    border: 10px;
+    /* outline: 0; */
+    box-shadow: none;
+}
+
+.icon-input {
+    border-bottom: none;
+    background: #f0f2f5;
+}
+
+/*Small Device */
+@media (max-width: 576px) {}
+
+/*Medium devices tablets*/
+@media (max-width: 768px) {}
+
+/* Large devices desktops */
+@media (max-width: 992px) {}
+
+/* XX-Large devices  larger desktops */
+@media (max-width: 1200px) {}
+
+/* XX-Large devices  larger desktops */
+@media (max-width: 1400px) {}

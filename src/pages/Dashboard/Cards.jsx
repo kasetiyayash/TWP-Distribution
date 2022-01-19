@@ -9,23 +9,25 @@ export const Cards = ({ data }) => {
           alert(`${data.title} was Clicked`);
         }}
       >
+        {/* CARD */}
         <div className="shadow-md flex items-center p-[10px] cursor-pointer ">
+          {/* LOGO */}
           <div className="h-12 w-12 m-1.5">
             <img src={logos} />
           </div>
           <div className="mx-4 border-l-[0.1px] border-[#ededed] h-[60px]"></div>
           <div>
-            <span
-              id="price"
-              style={{ color: `${data.color}` }}
-              className="font-bold"
-            >
+            {/* TITLE */}
+            <span style={{ color: `${data.color}` }} className="font-bold">
               {data.title}
             </span>
+            {/* SEMI TTILE */}
             <span className="mx-1 font-semibold">{data.stitle}</span>
             <br />
+            {/* SUB TITLE */}
             <span>
               {data.subtitle}
+              {/* NOTIFICATION BADGE */}
               <span className="text-[red] mx-1">{data.badge}</span>
             </span>
           </div>

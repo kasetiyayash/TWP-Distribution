@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Orders</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="./css/neworder.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+    <body>
+        <!-- Header start -->
+        <div class="d-flex shadow justify-content-between p-3 align-items-center  sticky-top bg-white">
+            <span class="TitleHeader w-100" style="text-align: center;">New Orders</span>
+            <div class="d-flex justify-content-between align-items-center" style="padding: 0px !important;">
+                <i class="bi bi-filter" style="font-size:30px;color:#0063d4;" data-bs-toggle="modal"
+                    data-bs-target="#myModal"></i>
+            </div>
+        </div>
+        <!-- Header End -->
+
+        <div class="container mt-3">
+            <div class="search-bar input-group icon-input bottom-0  rounded-2">
+                <p class="input-group-text mb-0 bg-transparent border-0 ms-1 "><i class="bi bi-search fs-6"></i>
+                </p>
+                <input type="text"
+                    class="SerchItem form-control form-control-plaintext border-bottom-0 border-top-0 ms-1 fa-bold pe-1"
+                    placeholder="Search">
+            </div>
+
+            <div class="d-flex justify-content-between mt-3 fs-4 text-primary">
+                <h6><b>New Order For 000001</b></h6>
+            </div>
+
+            <div class="row g-0 mt-2">
+                <!-- Item Start -->
+                <div class="col-sm-12 col-md-12 col-lg-9 col-xl-9 col-xxl-9  item-container">
+
+                    <div class="row g-2">
+
+                        <div class="col-sm-12 col-md-12 col-lg-6">
+                            <div
+                                class="d-flex flex-column justify-content-between item-bg p-2 rounded shadow-sm  border border-1 border-gray">
+                                <div class="d-flex flex-row justify-content-between">
+                                    <div class="d-flex w-auto flex-column">
+                                        <p class="text-black mb-1">
+                                            <b>Amici 2015 Cabernet Missouri</b>
+                                        </p>
+                                        <p class="text-black mb-0">
+                                            <b class="ItemLable"><span class="text-light">Price</span> : <span
+                                                    class="ItemQty">$42.20</span></b>
+                                        </p>
+                                    </div>
+                                    <div class="d-flex flex-row align-items-center">
+                                        <div
+                                            class="rounded-circle roundInvoiceCircleSmall justify-content-center align-items-center d-flex me-1">
+                                            <span class="text-white">12</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row justify-content-between mt-2 ">
+                                    <div class="d-flex align-items-center">
+                                        <b class="ItemLable me-1"><span class="text-light text-center">Qty</span></b>
+                                        <b><span class="text-black text-center">:</span></b>
+                                        <div class="quantity-control ms-2">
+                                            <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                                                class="quantity-btn text-center text-black"><i
+                                                    class="bi bi-dash-lg"></i></button>
+                                            <input type="number" min="1" value="1" name="quantity"
+                                                class="QtyItem form-control form-control-plaintext border-bottom-0 border-top-0 fa-bold p-0"
+                                                placeholder="Qty" focus="false">
+                                            <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                                                class="quantity-btn text-center text-black"><i
+                                                    class="bi bi-plus-lg"></i></button>
+                                        </div>
+                                    </div>
+                                    <p class="text-black mb-0 align-self-center">
+                                        <b class="ItemLable"><span class="text-light">Total Price</span> : $42.20</span></b>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-12 col-lg-6">
+                            <div
+                                class="d-flex flex-column justify-content-between item-bg p-2 rounded shadow-sm  border border-1 border-gray">
+                                <div class="d-flex flex-row justify-content-between">
+                                    <div class="d-flex w-auto flex-column">
+                                        <p class="text-black mb-1">
+                                            <b>Amici 2015 Cabernet Missouri</b>
+                                        </p>
+                                        <p class="text-black mb-0">
+                                            <b class="ItemLable"><span class="text-light">Price</span> : <span
+                                                    class="ItemQty">$42.20</span></b>
+                                        </p>
+                                    </div>
+                                    <div class="d-flex flex-row align-items-center">
+                                        <div
+                                            class="rounded-circle roundInvoiceCircleSmall justify-content-center align-items-center d-flex me-1">
+                                            <span class="text-white">12</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row justify-content-between mt-2 ">
+                                    <div class="d-flex align-items-center">
+                                        <b class="ItemLable me-1"><span class="text-light text-center">Qty</span></b>
+                                        <b><span class="text-black text-center">:</span></b>
+                                        <div class="quantity-control ms-2">
+                                            <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                                                class="quantity-btn text-center text-black"><i
+                                                    class="bi bi-dash-lg"></i></button>
+                                            <input type="number" min="1" value="1" name="quantity"
+                                                class="QtyItem form-control form-control-plaintext border-bottom-0 border-top-0 fa-bold p-0"
+                                                placeholder="Qty" focus="false">
+                                            <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                                                class="quantity-btn text-center text-black"><i
+                                                    class="bi bi-plus-lg"></i></button>
+                                        </div>
+                                    </div>
+                                    <p class="text-black mb-0 align-self-center">
+                                        <b class="ItemLable"><span class="text-light">Total Price</span> : $42.20</span></b>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-12 col-lg-6">
+                            <div
+                                class="d-flex flex-column justify-content-between item-bg p-2 rounded shadow-sm  border border-1 border-gray">
+                                <div class="d-flex flex-row justify-content-between">
+                                    <div class="d-flex w-auto flex-column">
+                                        <p class="text-black mb-1">
+                                            <b>Amici 2015 Cabernet Missouri</b>
+                                        </p>
+                                        <p class="text-black mb-0">
+                                            <b class="ItemLable"><span class="text-light">Price</span> : <span
+                                                    class="ItemQty">$42.20</span></b>
+                                        </p>
+                                    </div>
+                                    <div class="d-flex flex-row align-items-center">
+                                        <div
+                                            class="rounded-circle roundInvoiceCircleSmall justify-content-center align-items-center d-flex  me-1">
+                                            <span class="text-white">12</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row justify-content-between mt-2 ">
+                                    <div class="d-flex align-items-center">
+                                        <b class="ItemLable me-1"><span class="text-light text-center">Qty</span></b>
+                                        <b><span class="text-black text-center">:</span></b>
+                                        <div class="quantity-control ms-1">
+                                            <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                                                class="quantity-btn text-center text-black"><i
+                                                    class="bi bi-dash-lg"></i></button>
+                                            <input type="number" min="1" value="1" name="quantity"
+                                                class="QtyItem form-control form-control-plaintext border-bottom-0 border-top-0 fa-bold p-0"
+                                                placeholder="Qty" focus="false">
+                                            <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                                                class="quantity-btn text-center text-black"><i
+                                                    class="bi bi-plus-lg"></i></button>
+                                        </div>
+                                    </div>
+                                    <p class="text-black mb-0 align-self-center">
+                                        <b class="ItemLable"><span class="text-light">Total Price</span> : $42.20</span></b>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-12 col-lg-6">
+                            <div
+                                class="d-flex flex-column justify-content-between item-bg p-2 rounded shadow-sm  border border-1 border-gray">
+                                <div class="d-flex flex-row justify-content-between">
+                                    <div class="d-flex w-auto flex-column">
+                                        <p class="text-black mb-1">
+                                            <b>Amici 2015 Cabernet Missouri</b>
+                                        </p>
+                                        <p class="text-black mb-0">
+                                            <b class="ItemLable"><span class="text-light">Price</span> : <span
+                                                    class="ItemQty">$42.20</span></b>
+                                        </p>
+                                    </div>
+                                    <div class="d-flex flex-row align-items-center">
+                                        <div
+                                            class="rounded-circle roundInvoiceCircleSmall justify-content-center align-items-center d-flex  me-1">
+                                            <span class="text-white">12</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row justify-content-between mt-2 ">
+                                    <div class="d-flex align-items-center">
+                                        <b class="ItemLable me-1"><span class="text-light text-center">Qty</span></b>
+                                        <b><span class="text-black text-center">:</span></b>
+                                        <div class="quantity-control ms-1">
+                                            <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                                                class="quantity-btn text-center text-black"><i
+                                                    class="bi bi-dash-lg"></i></button>
+                                            <input type="number" min="1" value="1" name="quantity"
+                                                class="QtyItem form-control form-control-plaintext border-bottom-0 border-top-0 fa-bold p-0"
+                                                placeholder="Qty" focus="false">
+                                            <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                                                class="quantity-btn text-center text-black"><i
+                                                    class="bi bi-plus-lg"></i></button>
+                                        </div>
+                                    </div>
+                                    <p class="text-black mb-0 align-self-center">
+                                        <b class="ItemLable"><span class="text-light">Total Price</span> : $42.20</span></b>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-sm-12 col-md-12 col-lg-6">
+                            <div
+                                class="d-flex flex-column justify-content-between item-bg p-2 rounded shadow-sm  border border-1 border-gray">
+                                <div class="d-flex flex-row justify-content-between">
+                                    <div class="d-flex w-auto flex-column">
+                                        <p class="text-black mb-1">
+                                            <b>Amici 2015 Cabernet Missouri</b>
+                                        </p>
+                                        <p class="text-black mb-0">
+                                            <b class="ItemLable"><span class="text-light">Price</span> : <span
+                                                    class="ItemQty">$42.20</span></b>
+                                        </p>
+                                    </div>
+                                    <div class="d-flex flex-row align-items-center">
+                                        <div
+                                            class="rounded-circle roundInvoiceCircleSmall justify-content-center align-items-center d-flex  me-1">
+                                            <span class="text-white">12</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row justify-content-between mt-2 ">
+                                    <div class="d-flex align-items-center">
+                                        <b class="ItemLable me-1"><span class="text-light text-center">Qty</span></b>
+                                        <b><span class="text-black text-center">:</span></b>
+                                        <div class="quantity-control ms-1">
+                                            <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                                                class="quantity-btn text-center text-black"><i
+                                                    class="bi bi-dash-lg"></i></button>
+                                            <input type="number" min="1" value="1" name="quantity"
+                                                class="QtyItem form-control form-control-plaintext border-bottom-0 border-top-0 fa-bold p-0"
+                                                placeholder="Qty" focus="false">
+                                            <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                                                class="quantity-btn text-center text-black"><i
+                                                    class="bi bi-plus-lg"></i></button>
+                                        </div>
+                                    </div>
+                                    <p class="text-black mb-0 align-self-center">
+                                        <b class="ItemLable"><span class="text-light">Total Price</span> : $42.20</span></b>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item End -->
+
+                <!-- Total Start -->
+                <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 col-xxl-3 p-2 shadow-lg rounded BottomContainer">
+                    <p class="OrderTotal mb-0 text-black">
+                        <b>Order Total : $880</b>
+                    </p>
+                    <p class="ButtonSubmit rounded mb-0 text-white">
+                        <a style="text-decoration: none; color: #fff;" href="./ReviewOrder.html">
+                        Next
+                        </a>
+                    </p> 
+                </div>
+                <!-- Total End -->
+            </div>
+
+            <!-- Filter Dialog -->
+            <div class="modal" id="myModal">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Filters</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="form-check mb-3 ms-3">
+                                <label class="form-check-label mt-2"> <input class="form-check-input CheckClass"
+                                        type="checkbox" name="allItems"> All Items </label> <br>
+                                <label class="form-check-label mt-2"> <input class="form-check-input CheckClass"
+                                        type="checkbox" name="inStock"> In stock Items </label> <br>
+                                <label class="form-check-label mt-2"> <input class="form-check-input CheckClass"
+                                        type="checkbox" name="outOfStock"> No Stock Items </label> <br>
+                                <label class="form-check-label mt-2"> <input class="form-check-input CheckClass"
+                                        type="checkbox" name="qty"> Qty On Order </label> <br>
+                                <label class="form-check-label mt-2"> <input class="form-check-input CheckClass"
+                                        type="checkbox" name="newItem"> New Items </label> <br>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <button type="button" class=" btn btn-primary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Filter Dialog -->
+        </div>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

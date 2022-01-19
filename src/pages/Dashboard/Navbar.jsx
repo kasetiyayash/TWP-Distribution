@@ -6,6 +6,7 @@ import { faPowerOff, faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 export const Navbar = () => {
   return (
     <div className="flex items-center px-5 justify-between shadow-md">
+      {/* Arrow Icon */}
       <a
         className="w-12 h-full flex justify-center"
         onClick={() => {
@@ -14,7 +15,9 @@ export const Navbar = () => {
       >
         <FontAwesomeIcon icon={faArrowLeft} />
       </a>
+      {/* Logo */}
       <img src={logo} alt="Logo" width="120px" />
+      {/* Logout Button */}
       <a
         className="w-12 h-full flex justify-center"
         onClick={() => {

@@ -1,0 +1,56 @@
+input {
+    outline: none;
+    color: black;
+    background: #f0f2f5;
+    background-color: none;
+    border: 10px;
+    font-weight: 600 !important;
+    font-size: 15px !important;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.form-control:focus {
+    color: #212529;
+    background: #f0f2f5;
+    border: 10px;
+    outline: 0;
+    box-shadow: none;
+}
+
+.icon-input {
+    border-bottom: none;
+    background: #f0f2f5;
+}
+
+.search-bar {
+    height: 50px;
+    width: 100%;
+}
+
+.roundInvoiceCircleSmall {
+    height: 35px;
+    width: 35px;
+    background: #2b7ddb;
+}
+
+h4,h6{
+    font-size: 20px; 
+}
+
+.TopContainer{
+    background: #2b7ddb;
+}
+
+.item-bg{
+    background: #f2f2f2; 
+}
+
+
+.TitleItem {
+    font-weight: bold;
+    font-size: 24px;
+    color: #2b7ddb;
+}

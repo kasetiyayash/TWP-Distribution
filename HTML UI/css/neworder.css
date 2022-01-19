@@ -1,0 +1,207 @@
+label{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.TitleHeader{
+    font-weight: bold; 
+    font-size: 24px; color: #000000;
+}
+
+.SerchItem {
+    outline: none;
+    color: black;
+    background: #f0f2f5;
+    background-color: none;
+    border: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    height: 45px;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.form-control:focus {
+    color: #212529;
+    background: #f0f2f5;
+    border: 10px;
+    outline: 0;
+    box-shadow: none;
+}
+
+.icon-input {
+    border-bottom: none;
+    background: #f0f2f5;
+}
+
+button{
+    height: 35px !important;
+    width: 35px !important;
+}
+
+.item-bg{
+    background: #FFFFFF; 
+}
+
+/* .border-dark{
+    border-color: gray !important;
+} */
+
+.quantity-control {
+    display: flex;
+    align-items: center;
+    background: #eaeaea;
+}
+
+.quantity-btn {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    margin: 0;
+    width: 25px;
+    height: 25px;
+    padding: 0px 0px;
+    cursor: pointer; 
+}
+
+.roundInvoiceCircleSmall {
+    height: 35px;
+    width: 35px;
+    background: #2b7ddb;
+}
+
+.ItemQty{
+    color:black;
+}
+
+.QtyItem {
+    outline: none;
+    color: black;
+    background-color: #eaeaea;
+    font-weight: 600;
+    font-size: 15px;
+    height: 36px;
+    width: 40px;
+    text-align: center;
+}
+
+.QtyItem.form-control:focus {
+    color: #212529;
+    background: #eaeaea;
+    border: 10px;
+    outline: 0;
+    box-shadow: none;
+}
+
+.ItemLable{
+    font-size: 14px;
+    text-align: center;
+}
+
+.text-light{
+    color: gray !important;
+}
+
+.BottomContainer{
+    background: rgba(255, 255, 255, 0.596);
+    height: 100%;
+}
+
+.item-container{
+    padding-right: 10px;
+    padding-left: 0px;
+}
+
+.ButtonSubmit{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    margin-left: 4px;
+    margin-right: 4px;
+    font-size: 18px;
+    margin-top: 10px;
+    background: #2b7ddb;
+}
+
+
+.OrderTotal{
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+}
+
+b{
+    font-size: 16px;
+}
+
+
+@media (max-width: 1400px) {
+    .ButtonSubmit{
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+   
+    .item-container{
+        padding-right: 10px;
+        padding-left: 0px;
+    }
+}
+
+/* @media (max-width: 1200px) {
+    .ButtonSubmit{
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    .item-container{
+        padding-right: 10px;
+        padding-left: 0px;
+    }
+} */
+
+@media (max-width: 992px) {
+    .ButtonSubmit{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .item-container{
+        height: 503px;
+        overflow: scroll;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    .ButtonSubmit{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .item-container{
+        height: 508px;
+        overflow: scroll;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .ButtonSubmit{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .item-container{
+        height: 448px;
+        overflow: scroll;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}
+

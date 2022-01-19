@@ -1,0 +1,53 @@
+.TopContainer{
+    background: #2b7ddb;
+}
+
+.item-bg{
+    background: #f2f2f2; 
+}
+
+.TitleItem {
+    font-weight: bold;
+    font-size: 24px;
+    color: #2b7ddb;
+}
+
+.roundInvoiceCircle {
+    height: 70px;
+    width: 70px;
+}
+
+.InvoiceRound {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+
+button{
+    font-size: 15px !important;
+    color: white !important;
+}
+
+.roundInvoiceCircleSmall {
+    height: 35px;
+    width: 35px;
+    background: #2b7ddb;
+
+}
+
+h4,h6{
+    font-size: 20px; 
+}
+
+/*Small Device */
+@media (max-width: 576px) {}
+
+/*Medium devices tablets*/
+@media (max-width: 768px) {}
+
+/* Large devices desktops */
+@media (max-width: 992px) {}
+
+/* 
+XX-Large devices  larger desktops */
+@media (max-width: 1400px) {}

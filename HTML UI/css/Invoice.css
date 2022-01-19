@@ -1,0 +1,69 @@
+
+.TitleItem {
+    font-weight: bold;
+    font-size: 24px;
+    color: #2b7ddb;
+}
+
+.roundInvoiceCircle {
+    height: 70px;
+    width: 70px;
+}
+
+.TopContainer{
+    background-color: #2b7ddb;
+}
+
+.roundInvoiceCircleSmall {
+    height: 30px;
+    width: 30px;
+    background-color: #2b7ddb;
+}
+
+.roundInvoiceDCircleSmall {
+    height: 30px;
+    width: 30px;
+    background-color: #809fff;
+    border-color: black;
+    border-width: 2px;
+    color: black;
+}
+    
+.item-bg{
+    background-color: #f2f2f2; 
+}
+
+.PriceText{
+    color:hotpink; 
+    font-weight: 600;
+}
+
+.SerchItem {
+    outline: none;
+    color: black;
+    background-color: #f0f2f5;
+    font-size: 15px;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #f0f2f5;
+    border: 10px;
+    outline: 0;
+    box-shadow: none;
+}
+
+.icon-input {
+    border-bottom: none;
+    background-color: #f0f2f5;
+}
+
+
+.TitleHeader{
+    font-weight: bold; 
+    font-size: 24px; color: #000000;
+}
